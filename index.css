@@ -11,12 +11,38 @@ body {
   border-radius: 50%;
 }
 
-.header{
-  position: fixed;
-  top:0; left:0;
-  z-index: 100;
-  background-color: white;
+
+li{
+  display: inline;
+  float: left;
+  padding: 9px;
 }
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: blue;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.header{
+  height: 46px; 
+  top: 0; 
+  right: 0; 
+  left:0; 
+  z-index: 100;
+  position: fixed; 
+  background: #ffffff;
+}
+
 
 .maincontent{
   display: flex;
