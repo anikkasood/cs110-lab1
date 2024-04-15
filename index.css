@@ -1,0 +1,81 @@
+/* Feel free to edit CSS of body if you'd like. We provide you the light gray background color and font family in the body styling */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  background-color: #e6ecf0;
+}
+
+.img-class{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.header{
+  position: fixed;
+  top:0; left:0;
+  z-index: 100;
+  background-color: white;
+}
+
+.maincontent{
+  display: flex;
+  width: 90%;
+  justify-content: space-between; 
+
+  max-width: 1190px;
+  margin: 56px auto;
+}
+
+.profile{
+ background-color: aqua;
+}
+
+.cover-picture{
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  z-index: 3;
+}
+
+.profile-picture{
+  background-color: grey;
+  z-index: 2;
+}
+
+.profile-stats{
+  background-color: tan;
+  flex-direction: row;
+  z-index: 1;
+}
+
+.tweet{
+  background-color: pink;
+}
+
+.who-to-follow{
+ background-color: red;
+}
+
+
+.tweets{
+  background-color: rgb(190, 190, 36);
+  width: 50%;
+  flex-direction: column;
+}
+
+button{
+  background-color: white;
+  border-color: rgb(62, 194, 255);
+  border-width: 3px;
+  border: solid;
+  border-radius: 15px;
+  padding: 5px 20px 5px 20px;
+  color: rgb(62, 194, 255);
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 25%;
+}
+
+
+/* TODO: Create CSS for your Twitter Mockup */
