@@ -87,8 +87,7 @@ border-bottom: solid;
 
 .maincontent{
   display: flex;
-  width: 90%;
-  justify-content: space-between; 
+  justify-content: space-evenly;
 
   max-width: 1190px;
   margin: 56px auto;
@@ -143,7 +142,6 @@ border-bottom: solid;
   margin: 0px;
 }
 
-
 .profile-stats{
   background-color: white;
   z-index: 2;
@@ -159,13 +157,22 @@ border-bottom: solid;
   
 }
 
-
 .tweet{
-  background-color: pink;
+  width: 560px;
+  background-color: white;
 }
 
-.who-to-follow{
- background-color: red;
+.who-to-follow-div{
+ background-color: white;
+ width:290px;
+ padding: 0px;
+ display:flex;
+}
+.follow-rec{
+
+}
+.follow-rec-header{
+
 }
 
 
@@ -190,7 +197,7 @@ button{
 
 /* Small Window Size Formatting */
 @media screen and (max-width:  1200px) {
-  .who-to-follow  { display: none; }
+  .who-to-follow-div  { display: none; }
 
 }
 @media screen and (max-width: 960px) {
