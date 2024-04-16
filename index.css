@@ -188,8 +188,8 @@ button{
   margin-left: 25%;
 }
 
-/* Desktop*/
-@media screen and (max-width: 900px) {
+/* Small Window Size Formatting */
+@media screen and (max-width:  1200px) {
   .who-to-follow  { display: none; }
 
 }
