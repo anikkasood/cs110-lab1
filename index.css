@@ -91,8 +91,6 @@ li a:hover:not(.active) {
   padding: 0px 20px 0px 20px;
 
   display: flex;
-  /*align-items: center;
-  justify-content: center */
 }
 
 .profile-picture img{
@@ -107,6 +105,7 @@ li a:hover:not(.active) {
 }
 
 .profile-picture-text{
+  padding-top: 10px;
   padding-left: 10px;
 }
 
@@ -114,13 +113,20 @@ li a:hover:not(.active) {
   margin: 0px;
 }
 
+
 .profile-stats{
-  background-color: tan;
-  flex-direction: row;
+  background-color: white;
   z-index: 2;
   flex-grow: 1;
-  padding: 20px 20px 20px 20px;
+  padding: 0px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
 
+.profile-stats-boxes{
+  font-weight: bold;
+  
 }
 
 
