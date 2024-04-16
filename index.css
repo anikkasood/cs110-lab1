@@ -26,6 +26,7 @@ body {
 
 .nav-bar{
   align-items: left;
+  margin-top: 3px;
   margin-left: 20px;
   width: 45%;
   display: inline-block;
@@ -73,7 +74,7 @@ li a {
   /* hovering on a navbar item */
 li a:hover:not(.active) {
   color: #20acf0;
-  height: 35px;
+  height: 32px;
   border-bottom: solid;
   
   }
