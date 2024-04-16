@@ -11,25 +11,37 @@ body {
   border-radius: 50%;
 }
 
+.twitter-logo{
+  display: flex;
+  justify-content: center;
+}
+
 li{
   display: inline;
   float: left;
+  font-weight: 600;
   padding: 9px;
 }
 
 li a {
+  padding: 4px;
   display: block;
-  color: black;
+  color: #67757f;
   text-align: center;
   text-decoration: none;
 }
 
+/* hovering on a navbar item */
 li a:hover:not(.active) {
-  color: blue;
+  color: #20acf0;
+  border-bottom: solid;
+
 }
 
+/* if you've clicked on a navbar item*/
 .active {
-  background-color: #04AA6D;
+  color:#20acf0;
+  border-bottom: solid;
 }
 
 .header{
@@ -39,7 +51,7 @@ li a:hover:not(.active) {
   left:0; 
   z-index: 100;
   position: fixed; 
-  background: #ffffff;
+  background: hsl(0, 0%, 100%);
 }
 
 
