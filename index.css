@@ -168,11 +168,53 @@ border-bottom: solid;
  padding: 0px;
  display:flex;
 }
+.who-to-follow-label{
+  font-size: 20;
+  background-color: white;
+  height: 60px;
+}
 .follow-rec{
+  padding-top: 5px;
+  display:flex;
+  align-items: top;
+  border-bottom: solid #e8ecf0;
+  height:70px;
+  width: 290px;
+  background-color: white;
+  font-size: 15px;
+}
+
+.follow-rec-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  min-height: 51px;
+}
+
+.follow-button-container{
+  flex-direction: row;
+  margin-left: -100px;
+}
+
+.follow-button{
+  border-radius: 20px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 4px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: white;
+  color: #20acf0;
+  border-color: #20acf0;
+  border: solid;
 
 }
-.follow-rec-header{
-
+.tab{
+  padding-left: 15px;
+}
+.account-at{
+  padding-left:7px;
+  color: gray;
 }
 
 
