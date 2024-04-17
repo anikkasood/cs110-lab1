@@ -11,17 +11,22 @@
 <body>
 
   <div class = "header" role=navigation><!-- header -->
-      <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#news">Moments</a></li>
-      <li><a href="#contact">Notifications</a></li>
-      <li><a href="#about">Messages</a></li>
+    <div class = "nav-bar">
+      <nav>
+        <li><a href = "#home">Home</a></li>
+        <li><a href = "#moments">Moments</a></li>
+        <li class = "hide-list-item2"><a href = "#notifications">Notifications</a></li>
+        <li class = "hide-list-item1"><a href = "#messages">Messages</a></li>
+      </nav>
+    </div>
 
-      <li><a href="#about">Tweet</a></li>
-
-      <div class = "twitter-logo"> <!-- logo -->
+    <div class = "twitter-logo">
         <img src="images/twitter-logo.png" alt="Twitter-Logo" width="30px" >
-      </div>
+    </div>
 
+    <div class = "tweet-button">
+      Tweet
+    </div>
 
     </div>
     
@@ -94,9 +99,11 @@
 
 
     <!--right hand side box-->
-    <div class="who-to-follow">
-      <div class="follow-rec">
-        <div class="follow-rec-header">
+    <div class="who-to-follow-div">
+      <div class="who-to-follow-label">
+        Who To Follow
+        <div class="person">
+          <!---->
           <img src="./src/scotty.avif" alt="Avatar">
           <p> <strong class="account-name">Scotty</strong>@Scotty_the_Bear blah</p>
         </div>
