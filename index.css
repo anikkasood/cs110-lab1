@@ -88,7 +88,6 @@ border-bottom: solid;
 .maincontent{
   display: flex;
   justify-content: space-evenly;
-
   max-width: 1190px;
   margin: 56px auto;
 }
