@@ -97,6 +97,7 @@ border-bottom: solid;
  display: flex;
  flex-direction: column;
  width: 290px;
+ height: 140px;
 }
 
 .cover-picture{
@@ -159,23 +160,62 @@ border-bottom: solid;
   background-color: pink;
   display: flex;
   flex-direction: column;
+  width: 570px;
 
+  flex-basis: fit-content;
 }
 
 
 .tweet-post{
-  background-color: rgb(190, 190, 36);
-  /* width: 80%; */
+  background-color: white;
   padding-top: 10px;
   padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid #e6ecf0;
+  /* height: 70px; */
+  /* flex-basis: content; */
+  align-items: flex-start;
+ 
 }
 
-.tweet img{
+
+.tweet-post-img{
   position:relative;
   /* bottom:15px; */
   width: 50px;
   height: 50px;
+  flex:none;
+}
 
+.tweet-post-text{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+
+.tweet-post-text p{
+  margin: 0;
+}
+
+.post-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  min-height: 51px;
+  /* height: auto; */
+}
+
+.post-acc{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.post-info {
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -184,6 +224,7 @@ border-bottom: solid;
 .who-to-follow-div{
  background-color: white;
  width:290px;
+ height: 230px;
  padding: 0px;
  display:flex;
 }
